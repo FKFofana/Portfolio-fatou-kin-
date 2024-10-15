@@ -1,0 +1,150 @@
+/* Styles pour la barre de menu */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.menu-bar {
+    background-color: #ff6f61;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Ajout d'un espace blanc sur les côtés */
+.menu-bar {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 8px; /* Arrondir les bords pour un effet plus stylisé */
+}
+/* Styles pour l'espace sous le menu */
+.spacing {
+    height: 30px; /* Ajuste la hauteur selon tes préférences */
+}
+
+/* Styles pour le texte superposé */
+.overlay-text {
+    display: flex;
+    align-items: center; /* Alignement vertical centré */
+    justify-content: space-between; /* Espacement entre texte et image */
+    margin: 20px auto;
+    width: 80%; /* Ajuste la largeur selon tes préférences */
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text-left {
+    text-align: left; /* Aligner le texte à gauche */
+}
+
+.image-kine {
+    width: 600px; /* Ajuste la taille de l'image selon tes préférences */
+    border: 60px; /* Bordure de 2px de couleur */
+    border-radius: 1px; /* Arrondi des coins de l'image */
+    margin-left: 80px; /* Espacement entre le texte et l'image */
+}
+
+.small-text {
+    font-size: 14px; /* Petite taille de texte */
+}
+
+.medium-text {
+    font-family: 'Great Vibes', cursive; /* Police pour Fatou Kiné Fofana */
+    font-size: 24px; /* Taille moyenne */
+    
+}
+.red-text {
+    color: #ff6f61; /* Couleur rouge pour le texte */
+}
+
+.kine {
+    height: 10px; /* Ajuste la hauteur selon tes préférences */
+}
+
+
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F6B5A0; /* Couleur d'arrière-plan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #F8CBA6; /* Couleur de la boîte */
+    border-radius: 15px; /* Coins arrondis */
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    position: relative;
+}
+
+.container img {
+    width: 200px; /* Largeur de l'image */
+    border-radius: 10px; /* Coins arrondis pour l'image */
+    float: left; /* Flotte l'image à gauche */
+    margin-right: 20px; /* Espace entre l'image et le texte */
+}
+
+.title {
+    font-size: 24px; /* Taille du titre */
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Brush Script MT', cursive; /* Police manuscrite */
+}
+
+.description {
+    font-size: 16px; /* Taille du texte */
+    line-height: 1.5; /* Hauteur de ligne */
+    color: #333; /* Couleur du texte */
+}
+
+.button {
+    display: block;
+    background-color: #E08D76; /* Couleur du bouton */
+    color: white; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    text-align: center;
+    border-radius: 5px; /* Coins arrondis pour le bouton */
+    text-decoration: none; /* Supprime le soulignement */
+    margin-top: 20px; /* Espace au-dessus du bouton */
+}
+
+.button:hover {
+    background-color: #C97361; /* Couleur au survol */
+}
+
+.star {
+    position: absolute;
+    top: -20px; /* Position de l'étoile */
+    right: -20px; /* Position de l'étoile */
+    font-size: 40px; /* Taille de l'étoile */
+    color: white; /* Couleur de l'étoile */
+}
